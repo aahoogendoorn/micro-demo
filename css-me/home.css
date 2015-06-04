@@ -1,0 +1,140 @@
+/*Navbars*/
+
+.navbar {
+    margin-bottom: 0;
+}
+
+.navbar-default {
+    margin-bottom: 0;
+    background-color: white;
+}
+
+body{
+    padding-top: 50px;
+}
+
+/* Buttons */
+
+.btn-transparant{
+    background: none;
+    color: white;
+    border-color: white;
+}
+
+/*Trons*/
+
+.jumbotron {
+    margin-bottom: 0;
+}
+
+.jumbotron-blue{
+    color: white;
+    /*background-color: rgb(111, 84, 153);*/
+    /*background-image: linear-gradient(rgb(86, 61, 124) 0px, rgb(111, 84, 153) 100%);*/
+    /*background-repeat: repeat-x;*/
+    background: url("../images/octicons-bg.png") repeat scroll center center rgb(111, 84, 153);
+    margin-bottom: 0;
+}
+
+.jumbotron-green {
+    color: green;
+    background-color: white;
+    background-image: linear-gradient(white 0px, #eeeeee 100%);
+    background-repeat: repeat-x;
+    text-shadow: 0px 1px 1px rgba(0, 0, 0, 0.1);
+}
+
+.jumbotron-darkgreen{
+    color: white;
+    /*background-color: rgb(111, 84, 153);*/
+    /*background-image: linear-gradient(rgb(86, 61, 124) 0px, rgb(111, 84, 153) 100%);*/
+    /*background-repeat: repeat-x;*/
+    background: url("../images/octicons-bg.png") repeat scroll center center darkgreen;
+    margin-bottom: 0;
+}
+
+.jumbotron-green h2{
+    color: black;
+}
+
+.jumbotron-green h4{
+    color: black;
+}
+
+.jumbotron-orange {
+    color: white;
+    background: url("../images/arabesque.png") repeat scroll center center orange;
+    background-repeat: repeat;
+}
+
+.jumbotron-yellow {
+    text-align: center;
+    color: white;
+    background-color: #FFD700;
+    /*background: url("../images/arabesque.png") repeat scroll center center orange;*/
+    background-repeat: repeat;
+}
+
+.jumbotron-yellow p{
+    color: black;
+}
+
+.jumbotron-clear {
+    background: none;
+}
+
+/*Text*/
+
+.text-tiny {
+    font-size: 14px !important;
+}
+
+.text-white{
+    color: white !important;
+    margin-right: 12px;
+}
+
+.text-white:hover{
+    color: lightgray;
+}
+
+
+.img-small {
+    height: 120px;
+}
+
+.container-with-bottom{
+    margin-bottom: 100px;
+}
+
+/*Spacing*/
+
+.move-down{
+    margin-top: 30px;
+}
+
+.home {
+/*    background: url('../images/back.jpg') repeat-x 0;*/
+    background: url('http://lorempixel.com/1600/1050/nature') 0;
+}
+
+.navbar-white {
+    background-color: white;
+}
+
+.navbar-home {
+    background-color: #3d8ca9;
+}
+
+.navbar-home a {
+    color: white;
+}
+.navbar-white a {
+        color: darkred !important;
+}
+
+.sign-in {
+    border-radius: 6px;
+    padding: 12px;
+    background: rgba(255,255,255,.4);
+}

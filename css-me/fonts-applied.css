@@ -1,0 +1,54 @@
+/*Fonts*/
+
+@font-face {
+    font-family: "myFirstFont";
+    src: url("../fonts/Roboto-Bold.ttf");
+}
+
+@font-face {
+    font-family: "mySecondFont";
+    src: url("../fonts/Roboto-Regular.ttf");
+}
+
+html {
+    font-family: myFirstFont, sans-serif;
+}
+
+body {
+    font-family: mySecondFont, serif;
+}
+
+label {
+    font-family: myFirstFont, serif;
+}
+
+a {
+    font-family: mySecondFont, sans-serif;
+}
+
+pre {
+    font-family: myFirstFont, sans-serif;
+}
+
+input, button, select, textarea {
+    font-family: mySecondFont, sans-serif;
+}
+
+.pull-right{
+}
+
+.radio label, .checkbox label {
+    font-family: mySecondFont, sans-serif;
+}
+
+p {
+    font-family: mySecondFont, sans-serif;
+}
+
+p.text {
+    font-family: mySecondFont, sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 .navbar {
+    font-family: myFirstFont, sans-serif;
+}

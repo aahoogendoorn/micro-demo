@@ -1,0 +1,25 @@
+/*Fonts*/
+
+@font-face {
+    font-family: "IconFont";
+    src: url("../fonts/FontAwesome.otf");
+}
+
+@font-face {
+    font-family: "HeadingFont";
+    src: url("../fonts/Roboto-Regular.ttf");
+}
+
+@font-face {
+    font-family: "ParagraphFont";
+    src: url("../fonts/Roboto-Thin.ttf");
+}
+
+.fa-mynote:before {
+    content: "\f0f6";
+}
+
+.fa-devweek:before {
+    content: "\f1b9";
+}
+

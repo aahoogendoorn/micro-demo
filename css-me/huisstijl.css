@@ -1,0 +1,336 @@
+/*Fonts*/
+
+@font-face {
+    font-family: "RobotoBold";
+    src: url("../fonts/Roboto-Bold.ttf");
+}
+
+@font-face {
+    font-family: "RobotoRegular";
+    src: url("../fonts/Roboto-Regular.ttf");
+}
+
+html {
+    font-family: RobotoBold, sans-serif;
+}
+
+body {
+    font-family: RobotoRegular, serif;
+    font-size: 13px;
+    padding-top: 70px; /* required for navbar-fixed-top */
+}
+
+label {
+    font-family: RobotoBold, serif;
+}
+
+a {
+    font-family: RobotoRegular, sans-serif;
+    color: rgb(0, 137, 104);
+}
+
+pre {
+    font-family: RobotoBold, sans-serif;
+    font-size: 13px;
+    border:0;
+}
+
+input, button, select, textarea {
+    font-family: RobotoRegular, sans-serif;
+    font-size: 13px;
+}
+
+.pull-right{
+    padding-right: 10px;
+}
+
+.radio label, .checkbox label {
+    font-family: RobotoRegular, sans-serif;
+    font-size: 13px;
+}
+
+a:hover, a:focus {
+    color: #B50325;
+}
+
+p {
+    font-family: RobotoRegular, sans-serif;
+    color: #333333;
+    font-size: 13px;
+}
+
+p.text {
+    font-family: RobotoRegular, sans-serif;
+    color: #333333;
+    font-size: 13px;
+}
+
+h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 .navbar {
+    font-family: RobotoRegular, sans-serif;
+    color: #008968;
+}
+
+h1 {
+    font-size: 30px;
+}
+
+h2 {
+    font-size: 24px;
+}
+
+.page-header {
+    padding-bottom: 9px;
+    margin: 10px 0 10px;
+    font-size: 24px;
+    color: #B50325;
+    border-bottom: none;
+}
+
+h2.red {
+    color: #B50325;
+}
+
+h2.red-thin {
+    color: #B50325;
+    font-family: RobotoRegular;
+}
+
+h3 {
+    font-size: 24px;
+}
+
+h4 {
+    font-size: 16px;
+    padding-bottom: 10px;
+    margin: 0;
+}
+
+h4.thin {
+    font-family: RobotoRegular;
+}
+
+h5 {
+    font-size: 16px;
+    padding-bottom: 8px;
+    margin-top: 0;
+    margin-bottom: 16px;
+    border-bottom: 1px solid #D4E2DD;
+}
+
+/*  General */
+
+.vertical-center {
+    display: inline-block;
+    vertical-align: middle;
+    float: none;
+}
+
+/* Panels */
+
+.panel-title {
+    border-bottom: none;
+}
+
+.panel-heading {
+    font-size: 16px;
+    border-bottom: 1px solid #D4E2DD;
+    color: #008968;
+    padding: 0;
+}
+
+.panel-body {
+    padding: 15px 0;
+}
+
+.login-box {
+    max-width: 330px;
+    background-color: whitesmoke;
+    border-radius: 4px;
+    padding: 30px;
+}
+
+/* Grids */
+
+.panel {
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}
+
+.panel-grid {
+    border-color: #D4E2DD;
+}
+
+.panel-grid .panel-heading{
+    padding: 15px 10px;
+    background-color: whitesmoke;
+}
+
+.panel-grid .panel-body{
+    /*padding-left: 5px;*/
+    font-size: 13px;
+}
+
+/* Tables */
+
+th {
+    font-weight: normal;
+    /*    color: #008968;*/
+    color: black;
+    font-family: RobotoBold;
+}
+
+.table > thead > tr > th, .table > tbody > tr > th, .table > tfoot > tr > th, .table > thead > tr > td, .table > tbody > tr > td, .table > tfoot > tr > td {
+    vertical-align: middle;
+}
+
+.table > tr > td .btn-link {
+    padding: 0 !important;
+}
+
+.table-grid {
+    margin-top: 0;
+    border: 1px solid #ddd;
+}
+
+.table > thead > tr > th {
+    border-bottom: 1px solid #ddd;
+}
+
+.table .col-icon{
+    padding-left: 10px;
+    width: 10px;
+}
+
+/* Radio's en checkboxes */
+
+.radio, .checkbox {
+     margin-top: 0;
+}
+
+/* Navbar */
+
+.navbar {
+    margin-bottom: 0px !important;
+    border-radius: 0;
+}
+
+.navbar-klaver {
+    background-color: #00664D !important;
+    color: white;
+    border: 0;
+}
+
+.navbar-klaver .navbar-nav > li > a {
+    color: white !important;
+}
+
+.navbar-klaver .navbar-nav > li > a:hover {
+    color: lightgray !important;
+}
+
+.navbar-klaver .navbar-nav > .open > a, .navbar-default .navbar-nav > .open > a:hover, .navbar-default .navbar-nav > .open > a:focus {
+    color: #555 !important;
+    background-color: #e7e7e7;
+}
+
+.navbar-brand {
+    padding: 15px 0;
+    margin-right: 20px;
+    color: white !important;
+}
+
+.navbar-badge {
+    background-color: white !important;
+    color: rgb(0, 137, 104);
+    font-size: 11px;
+    font-weight: 400;
+    padding: 1px 6px;;
+}
+
+
+/* Buttons groups */
+
+.btn-group > .btn, .btn-group-vertical > .btn {
+    float: none !important;
+}
+
+.btn-group-vertical > .btn-md {
+    width: 120px;
+}
+
+.btn-group-vertical{
+    margin-bottom: 10px;
+}
+
+/* Buttons */
+
+.btn-default {
+    color: #00664D;
+}
+
+.btn-primary {
+    background-color: #00664D;
+    border: #00664D;
+}
+
+.btn-primary:hover,
+.btn-primary:focus {
+    background-color: #008968 !important;
+}
+
+.btn-danger {
+    background-color: #B3001C;
+    border: #B3001C;
+}
+
+.btn-80 {
+    width: 80px;
+}
+
+
+.btn[disabled] .btn {
+    opacity: 1;
+    color: lightgrey;
+}
+
+ /*Standaard icons*/
+
+.icon-danger {
+    color: #B3001C;
+}
+
+/*Placeholders*/
+
+.form-control::-webkit-input-placeholder {
+    color: lightgray;
+    font-family: RobotoRegular;
+    font-weight: 100;
+}
+
+.form-control:-moz-placeholder {
+    /* Firefox 18- */
+    color: lightgray;
+    font-family: RobotoRegular;
+    font-weight: 100;
+}
+
+.form-control::-moz-placeholder {
+    /* Firefox 19+ */
+    color: lightgray;
+    font-family: RobotoRegular;
+    font-weight: 100;
+}
+
+.form-control:-ms-input-placeholder {
+    color: lightgray;
+    font-family: RobotoRegular;
+    font-weight: 100;
+}
+
+/* Row */
+
+.row {
+    margin-left: 0px !important;
+    margin-bottom: 10px;
+}
+

@@ -1,0 +1,7 @@
+.glyphicon {
+    margin-right: 4px;
+}
+
+.glyphicon-agreement:before {
+    content: "\e033";
+}
